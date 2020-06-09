@@ -180,7 +180,7 @@ struct CollisionCategories{
     static let EdgeBody:   UInt32 = 0x1 << 3
 }
 
-// Имплементируем протокол
+
 extension GameScene: SKPhysicsContactDelegate {
 // Добавляем метод отслеживания начала столкновения
     func didBegin(_ contact: SKPhysicsContact) {
