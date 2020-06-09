@@ -51,14 +51,14 @@ class GameScene: SKScene {
                                                          name: .clockwiseButtonName)
         addChild(clockwiseButton)
 
-        startButton = SKLabelNode(text: "S T A R T")
+        startButton = SKLabelNode(text: "START")
         startButton.position = CGPoint(x: scene.frame.midX, y: 55)
         startButton.fontSize = 40
         startButton.fontColor = .green
         startButton.name = .startButtonName
         addChild(startButton)
 
-        stopButton = SKLabelNode(text: "S T O P")
+        stopButton = SKLabelNode(text: "STOP")
         stopButton.position = CGPoint(x: scene.frame.midX, y: 55)
         stopButton.fontSize = 40
         stopButton.fontColor = .red
